@@ -1,0 +1,31 @@
+[
+  {
+    "name": "IO Wait",
+    "color": "red",
+    "usage": 70.9,
+    "key": "ioWait",
+    "isFirst": true
+  },
+  { "name": "System", "color": "purple", "usage": 0, "key": "sys" },
+  { "name": "Nice", "color": "green", "usage": 0, "key": "nice" },
+  {
+    "name": "Interrupts (sw)",
+    "color": "blue",
+    "usage": 0,
+    "key": "softwareInterrupts"
+  },
+  {
+    "name": "Interrupts (hw)",
+    "color": "yellow",
+    "usage": 0,
+    "key": "hardwareInterrupts"
+  },
+  { "name": "steal", "color": "purple", "usage": 0, "key": "steal" },
+  {
+    "name": "User",
+    "color": "orange",
+    "usage": 248.14999999999998,
+    "key": "usr",
+    "isLast": true
+  }
+]

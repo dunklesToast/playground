@@ -1,0 +1,11 @@
+yarn benchmark with install to mounted dir:
+Before: 308.52s (0.14s user 0.09s system 0% cpu 5:09.50 total)
+After : 156.29s (0.14s user 0.19s system 0% cpu 2:38.88 total)
+
+yarn benchmark with install on build step
+Before: 206.0s (0.67s user 0.55s system 0% cpu 3:26.89 total)
+After : 135.7s (0.54s user 0.85s system 1% cpu 2:16.62 total)
+
+Vielfeld Base Image Build:
+Before: 523.5s (2.95s user 2.48s system 1% cpu 8:44.46 total)
+After : 212.0s (0.74s user 1.13s system 0% cpu 3:34.00 total)

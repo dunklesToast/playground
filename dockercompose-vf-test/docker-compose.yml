@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  app:
+    image: 05a72cb5c16d
+    depends_on:
+      - db
+    ports:
+      - "1340:1340"
+    environment:
+      DATABASE_HOST: db
+      DATABASE_NAME: vielfeld
+      DATABASE_USERNAME: vielfeld
+      DATABASE_PASSWORD: vielfeld
+  db:
+    image: mariadb
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: dev
+      MYSQL_DATABASE: vielfeld
+      MYSQL_USER: vielfeld
+      MYSQL_PASSWORD: vielfeld
+    restart: always
